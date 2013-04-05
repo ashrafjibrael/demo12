@@ -11,6 +11,7 @@
 		A7E1E70B170ECB9E00CD369B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E1E70A170ECB9E00CD369B /* main.m */; };
 		A7E1E70F170ECB9E00CD369B /* demo12.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = A7E1E70E170ECB9E00CD369B /* demo12.1 */; };
 		A7E1E717170ECBB300CD369B /* Demofile.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E1E716170ECBB300CD369B /* Demofile.m */; };
+		A7E1E71A170ECE9300CD369B /* demoXclass.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E1E719170ECE9300CD369B /* demoXclass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +35,8 @@
 		A7E1E70E170ECB9E00CD369B /* demo12.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = demo12.1; sourceTree = "<group>"; };
 		A7E1E715170ECBB300CD369B /* Demofile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Demofile.h; path = ../Demofile.h; sourceTree = "<group>"; };
 		A7E1E716170ECBB300CD369B /* Demofile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Demofile.m; path = ../Demofile.m; sourceTree = "<group>"; };
+		A7E1E718170ECE9300CD369B /* demoXclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = demoXclass.h; sourceTree = "<group>"; };
+		A7E1E719170ECE9300CD369B /* demoXclass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = demoXclass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +83,8 @@
 				A7E1E716170ECBB300CD369B /* Demofile.m */,
 				A7E1E70A170ECB9E00CD369B /* main.m */,
 				A7E1E70C170ECB9E00CD369B /* Supporting Files */,
+				A7E1E718170ECE9300CD369B /* demoXclass.h */,
+				A7E1E719170ECE9300CD369B /* demoXclass.m */,
 			);
 			path = demo12;
 			sourceTree = "<group>";
@@ -146,6 +151,7 @@
 			files = (
 				A7E1E70B170ECB9E00CD369B /* main.m in Sources */,
 				A7E1E717170ECBB300CD369B /* Demofile.m in Sources */,
+				A7E1E71A170ECE9300CD369B /* demoXclass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
